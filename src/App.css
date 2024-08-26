@@ -1,7 +1,43 @@
 .App {
   text-align: center;
-}
+  color: blue;
 
+}
+.container{
+  border: 5px;
+  background-color: yellow;
+  border: 1px solid;
+  width: 400px;
+  height: 100vh;
+  margin-top: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.button{
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: green;
+  color: white;
+  box-shadow: 10px;
+}
+.heading{
+  font-size: 20px;
+  color: green;
+}
+span{
+  color: red;
+  font-size: 12px;
+}
+.input{
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 250px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
